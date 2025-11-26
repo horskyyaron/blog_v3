@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://yaronhorsky.com/categories/</loc>
-  </url><url>
-    <loc>https://yaronhorsky.com/</loc>
-  </url><url>
-    <loc>https://yaronhorsky.com/tags/</loc>
-  </url>
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/posts/sqs-vs-sns/</loc>
+            <lastmod>2025-11-22T17:27:01+02:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/posts/</loc>
+            <lastmod>2025-11-22T17:27:01+02:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/</loc>
+            <lastmod>2025-11-22T17:27:01+02:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/posts/yws/</loc>
+            <lastmod>2025-11-20T13:40:37+02:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/posts/learning-about-microservices/</loc>
+            <lastmod>2025-11-19T10:03:53+02:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/posts/articles_i_loved/</loc>
+            <lastmod>2025-11-18T10:32:09+02:00</lastmod>
+          </url>
+    
+  
+    
+  
 </urlset>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Config on Congo</title>
+    <link>//localhost:1313/tags/config/</link>
+    <description>Recent content in Config on Congo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Nov 2025 17:27:01 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/config/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sqs vs Sns</title>
+      <link>//localhost:1313/posts/sqs-vs-sns/</link>
+      <pubDate>Sat, 22 Nov 2025 17:27:01 +0200</pubDate>
+      <guid>//localhost:1313/posts/sqs-vs-sns/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

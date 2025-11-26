@@ -1,0 +1,757 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Learning About Microservices &middot; Congo</title>
+    <meta name="title" content="Learning About Microservices &middot; Congo" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="//localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="//localhost:1313/css/main.bundle.min.2d0601ca68b66161f0b589707efcbf4762fc87869cf0f3a5c93738cc1af71af5.css"
+    integrity="sha256-LQYBymi2YWHwtYlwfvy/R2L8h4ac8POlyTc4zBr3GvU="
+  />
+  
+  
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        
+      
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="//localhost:1313/posts/learning-about-microservices/" />
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="//localhost:1313/posts/learning-about-microservices/">
+  <meta property="og:site_name" content="Congo">
+  <meta property="og:title" content="Learning About Microservices">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-19T10:03:53+02:00">
+    <meta property="article:modified_time" content="2025-11-19T10:03:53+02:00">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Learning About Microservices">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Thoughts and writings",
+    "name": "Learning About Microservices",
+    "headline": "Learning About Microservices",
+    
+    
+    "inLanguage": "en",
+    "url" : "\/\/localhost:1313\/posts\/learning-about-microservices\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-11-19T10:03:53\u002b02:00",
+    "datePublished": "2025-11-19T10:03:53\u002b02:00",
+    
+    "dateModified": "2025-11-19T10:03:53\u002b02:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "2247"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "//localhost:1313/",
+       "name": "Welcome!",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "//localhost:1313/posts/",
+       "name": "Thoughts and Writings",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "Learning About Microservices",
+       "position": 3
+     }
+   ]
+ }
+  </script>
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Congo</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title="Thoughts and writings"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/"
+                  title="Categories"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
+          
+            
+              
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Learning About Microservices
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-11-19 10:03:53 &#43;0200 IST">19 November 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">11 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <p>This is a ongoing summary of the book <em>&ldquo;Building Microservices&rdquo;</em> by Sam Neuman.</p>
+<h1 id="chapter-1---what-are-microservices" class="relative group">Chapter 1 - What are microservices <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#chapter-1---what-are-microservices" aria-label="Anchor">#</a></span></h1><p>From the book:</p>
+<blockquote>
+<p>Microservices are small, autonomous services that work together.</p>
+</blockquote>
+<p>Breaking it down we get:</p>
+<ul>
+<li>Small - in terms of code base and team.</li>
+<li>Autonomous - separate entities, deployed as a independent service.</li>
+</ul>
+<p>Communication between services are through network calls.</p>
+<p>Thoughts are made about what is exposed vs hidden.</p>
+<h2 id="key-benefits" class="relative group">Key Benefits <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#key-benefits" aria-label="Anchor">#</a></span></h2><h3 id="technology-heterogeneity" class="relative group">Technology Heterogeneity <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#technology-heterogeneity" aria-label="Anchor">#</a></span></h3><p>Since each service is independent, we can choose the right tools for the job,
+for example:</p>
+<ul>
+<li>database</li>
+<li>language</li>
+</ul>
+<h3 id="resilience" class="relative group">Resilience <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#resilience" aria-label="Anchor">#</a></span></h3><p>One service going down won&rsquo;t make the whole system crash.
+NOTE: the system should be ready for this cases and handle them correctly.</p>
+<h3 id="scaling" class="relative group">Scaling <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#scaling" aria-label="Anchor">#</a></span></h3><p>With smaller services, in contrast to monolith, we can just scale the part of the system that
+requires more resources.</p>
+<h3 id="ease-of-deployment" class="relative group">Ease of deployment <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ease-of-deployment" aria-label="Anchor">#</a></span></h3><p>We can deploy just the service that changes were made in, not the whole system.</p>
+<h3 id="optimize-for-replaceability" class="relative group">Optimize for replaceability <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#optimize-for-replaceability" aria-label="Anchor">#</a></span></h3><p>The cost of replacing one service is not that expensive since it is small in size
+and complexity.
+And since requirements are being changed all the time, and new technology is being
+created all the time, the system must be ready to embrace changes!
+Microservices are optimize for that uncertainty</p>
+<h1 id="chapter-2---the-evolutionary-architect" class="relative group">Chapter 2 - The Evolutionary Architect <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#chapter-2---the-evolutionary-architect" aria-label="Anchor">#</a></span></h1><p>The term &ldquo;Architect&rdquo; has problems in the world of software.
+It was borrowed from an existing profession when the architect has accountability
+for example: if the building collapsed, the architect is the responsible persona.</p>
+<p>But with software, things change over time, all the time, so you can&rsquo;t have a &ldquo;correct&rdquo;
+timeless solution, since the future is unknown.</p>
+<p>When we create documentation, and diagrams on diagrams describing the perfect system, that is a lie.</p>
+<p>We should think of ourselves as &lsquo;City planner&rsquo; as we care about zones in the system.</p>
+<p>Requirements and resources are rapidly changing (money, technology)</p>
+<p>Once our product reaches the client, we will reveal how the user actually uses the product,
+and what we thought will be the main part of the system, might not be, thus we need
+to differently allocate our resources.</p>
+<p>We should plan to allow for changes.</p>
+<p>Avoid over specifying things.</p>
+<blockquote>
+<p>the system should be habitable for developers to</p>
+</blockquote>
+<p>We should worry less about what happen inside the zones and more between the zones.
+How do they talk to each other.</p>
+<h2 id="principled-approach" class="relative group">Principled approach <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#principled-approach" aria-label="Anchor">#</a></span></h2><p>In Microservices we have many decisions we can make: database, language, this framework or the other.</p>
+<p>What should we do then? Framing</p>
+<p>We should set principles and practices.</p>
+<p>Principles - set of rules we made in order to achieve some larger goal.
+Practices - how we ensure our principles are being carried out. A set of detailed practice
+guidance for preforming a task.</p>
+<p>Defining the required standard - what is a good citizen?</p>
+<ul>
+<li>monitoring (system health, push vs pull approaches)</li>
+<li>interfaces. (HTTP, verbs or nouns? pagination resources? Versioning of endpoint?)</li>
+<li>safety.</li>
+</ul>
+<h1 id="chapter-3---how-to-model-services" class="relative group">Chapter 3 - How to model services <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#chapter-3---how-to-model-services" aria-label="Anchor">#</a></span></h1><p>How to think about the boundaries of our microservices.</p>
+<h2 id="what-makes-a-good-service" class="relative group">What makes a good service? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-makes-a-good-service" aria-label="Anchor">#</a></span></h2><ol>
+<li>loosely coupled</li>
+<li>high in cohesion</li>
+</ol>
+<h3 id="loose-coupling" class="relative group">loose coupling <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#loose-coupling" aria-label="Anchor">#</a></span></h3><p>A Change in one service does not require a change in another.</p>
+<p>A loosely coupled service knows as little as it needs about services it collaborates with.</p>
+<p>Thus, we&rsquo;ll probably want to limit the number of different calls from one service to another.
+This will reduce the change for tight coupling.</p>
+<h3 id="high-cohesion" class="relative group">High cohesion <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#high-cohesion" aria-label="Anchor">#</a></span></h3><p>Related behavior will sit together while different behavior sit elsewhere.</p>
+<p>So we need to find boundaries in our problem domain that will help ensure that
+services of related behavior sits together.</p>
+<h2 id="the-bounded-context" class="relative group">The bounded context <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-bounded-context" aria-label="Anchor">#</a></span></h2><p>Any domain consists of multiple bounded contexts.
+Each has its own explicit interface, deciding what to share with other contexts.</p>
+<p>In <code>Domain-Driven-Design</code> book, Evans uses the metaphor of a cell.</p>
+<blockquote>
+<p>cell can exist because their membraned define what is in and out and determine what can pass</p>
+</blockquote>
+<p>Example of bounded context, Warehouse department and Finance department.</p>
+<h3 id="shared-and-hidden-models" class="relative group">Shared and hidden models <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#shared-and-hidden-models" aria-label="Anchor">#</a></span></h3><p>A warehouse department has knowledge that only interest himself, e.g. number of
+forklifts it has.
+But it also has knowledge that interest other services such as the finance department
+say list of the inventory.</p>
+<p>Thus, the <em>stock item</em> becomes a shared model.</p>
+<p>But the stock item in the warehouse context can have a representation different that one in the finance team.
+So there is an <em>internal representation</em> and <em>external representation</em> .</p>
+<p>A simple example:</p>
+<p>Say a shared model is user:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;id&#34;</span><span class="o">:</span> <span class="s2">&#34;u123&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;name&#34;</span><span class="o">:</span> <span class="s2">&#34;Yaron&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Authentication service internal representation:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;userId&#34;</span><span class="o">:</span> <span class="s2">&#34;u123&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;fullName&#34;</span><span class="o">:</span> <span class="s2">&#34;Yaron Horsky&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;passwordHash&#34;</span><span class="o">:</span> <span class="s2">&#34;6fsd09dfj0932fjsd9f...&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;lastLoginAt&#34;</span><span class="o">:</span> <span class="s2">&#34;2025-11-20T10:00:00Z&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;failedLoginAttempts&#34;</span><span class="o">:</span> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Notification service representation:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;id&#34;</span><span class="o">:</span> <span class="s2">&#34;u123&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;displayName&#34;</span><span class="o">:</span> <span class="s2">&#34;Yaron&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;email&#34;</span><span class="o">:</span> <span class="s2">&#34;yaron@example.com&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;emailOptIn&#34;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;preferredLanguage&#34;</span><span class="o">:</span> <span class="s2">&#34;en&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Sometimes models can mean very different things depending on the context being used.
+For example <em>Order</em>:</p>
+<p>Payment Service context:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;orderId&#34;</span><span class="o">:</span> <span class="s2">&#34;o123&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;totalAmount&#34;</span><span class="o">:</span> <span class="mf">124.90</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;currency&#34;</span><span class="o">:</span> <span class="s2">&#34;USD&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;paymentStatus&#34;</span><span class="o">:</span> <span class="s2">&#34;PENDING&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Order Service context:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;orderId&#34;</span><span class="o">:</span> <span class="s2">&#34;o123&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;customerId&#34;</span><span class="o">:</span> <span class="s2">&#34;c1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;items&#34;</span><span class="o">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="s2">&#34;sku&#34;</span><span class="o">:</span> <span class="s2">&#34;x&#34;</span><span class="p">,</span> <span class="s2">&#34;quantity&#34;</span><span class="o">:</span> <span class="mi">2</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">],</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;status&#34;</span><span class="o">:</span> <span class="s2">&#34;PLACED&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Shipping Service context</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;orderId&#34;</span><span class="o">:</span> <span class="s2">&#34;o123&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;address&#34;</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;street&#34;</span><span class="o">:</span> <span class="s2">&#34;...&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;city&#34;</span><span class="o">:</span> <span class="s2">&#34;...&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;country&#34;</span><span class="o">:</span> <span class="s2">&#34;IL&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;weight&#34;</span><span class="o">:</span> <span class="mf">5.4</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;shippingStatus&#34;</span><span class="o">:</span> <span class="s2">&#34;READY_TO_SHIP&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="premature-decomposition" class="relative group">Premature decomposition <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#premature-decomposition" aria-label="Anchor">#</a></span></h3><p>Premature decomposition can be costly.
+It is much easier to start with one code base and then split it than thinking ahead
+and split first.</p>
+<h2 id="business-capabilities" class="relative group">Business capabilities <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#business-capabilities" aria-label="Anchor">#</a></span></h2><p>We should think about context capabilities and not data that is shared.</p>
+<p>E.g an <em>Ordering Service</em>, these are some capabilities that interests us:</p>
+<ul>
+<li>creating an order</li>
+<li>validate item availability</li>
+<li>apply business rules (discount, limits)</li>
+<li>change order state</li>
+<li>etc..</li>
+</ul>
+<p>It exposes <em>behaviors</em> like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-HTTP" data-lang="HTTP"><span class="line"><span class="cl"><span class="err">POST /orders/validate
+</span></span></span><span class="line"><span class="cl"><span class="err">POST /orders/confirm
+</span></span></span><span class="line"><span class="cl"><span class="err">POST /orders/cancel
+</span></span></span></code></pre></div><p>This is a bounded context. The order data is not the main issue, but the capabilities of the
+service are.</p>
+<p>VS the anemic version, a CRUD version of the same <em>Ordering Service</em>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-HTTP" data-lang="HTTP"><span class="line"><span class="cl"><span class="err">GET /orders/:id
+</span></span></span><span class="line"><span class="cl"><span class="err">POST /orders
+</span></span></span><span class="line"><span class="cl"><span class="err">PUT /orders/:id
+</span></span></span><span class="line"><span class="cl"><span class="err">DELETE /orders/:id
+</span></span></span></code></pre></div><p>This is basically db with a wrapper.</p>
+<p>Why this is bad?</p>
+<ul>
+<li>other services needs to implement the business rules</li>
+<li>high coupling: the one that writes the data controls behavior</li>
+<li>the core is the data, not the capabilities</li>
+</ul>
+<h2 id="communication-in-terms-of-business-concepts" class="relative group">Communication in terms of business concepts <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#communication-in-terms-of-business-concepts" aria-label="Anchor">#</a></span></h2><p>Changes are often about changes the business wants to make to how the system
+behaves. We are changing capabilities exposed to our customers.</p>
+<p>If the system is decomposed by bounded context of our domain, changes are local
+and isolated.</p>
+<p>Thus its important to think of the communication in terms of business concepts.</p>
+<p>It can be useful to think of forms being sent between these microservices, much
+as forms are sent around an organization.</p>
+<p>An example of form passing - Loan Application</p>
+<p>Loan application Service -&gt; credit check service -&gt; risk service -&gt; approval service -&gt; payout service</p>
+<h1 id="chapter-4---integration" class="relative group">Chapter 4 - Integration <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#chapter-4---integration" aria-label="Anchor">#</a></span></h1><p>Getting integration right is key to make microservices hold their benefits, otherwise
+a disaster is coming.</p>
+<h2 id="what-is-the-best-integration-technology" class="relative group">What is the best integration technology? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-is-the-best-integration-technology" aria-label="Anchor">#</a></span></h2><ul>
+<li>avoid breaking changes. e.g. some ms add a new field to a piece of data it sends,
+existing consumers shouldn&rsquo;t be impacted.</li>
+<li>Technology-Agnostic API - since changes are coming, this is a fact, it is important
+that the communication between microservices won&rsquo;t need major changes.</li>
+<li>Make services simple for consumers - we would like to allow the consumers to choose
+whatever tech they want, such that the communication with this service won&rsquo;t affect that
+choice or restrict it.</li>
+<li>Hide implementation detail - consumers shouldn&rsquo;t be bound to the service internal implementation.
+This is tightly coupled. Any technology that makes us expose these details should be avoided.</li>
+</ul>
+<h2 id="the-shared-database" class="relative group">The shared database <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#the-shared-database" aria-label="Anchor">#</a></span></h2><p>This is bad!</p>
+<ul>
+<li>Allowing external parties view internal implementation details.</li>
+<li>Changes to the schema breaks consumers.</li>
+<li>Consumers are bound to specific technology choice (relational db for example) (tightly coupled)</li>
+<li>where is the logic? logic is spread across multiple consumers. (no cohesion)</li>
+</ul>
+<p>Database integration makes it easy to share data, but doesn&rsquo;t share behavior.</p>
+<h2 id="sync-vs-async" class="relative group">Sync vs Async <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sync-vs-async" aria-label="Anchor">#</a></span></h2><p>Async can be useful for long running tasks.
+Firing requests and assuming they worked allows us to update the UI quickly
+give the user a better experience, and later updating when the tasks end and we get the response.</p>
+<p>There are 2 different types of collaboration:</p>
+<ul>
+<li>request/response</li>
+<li>event-based</li>
+</ul>
+<p>Event based is saying that &ldquo;something appended&rdquo; and the parties that care about it
+will do stuff accordingly.</p>
+<p>Another benefit of event-based collaboration is that it is highly decoupled.</p>
+<h2 id="orchestration-vs-choreography" class="relative group">Orchestration vs choreography <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#orchestration-vs-choreography" aria-label="Anchor">#</a></span></h2><p>Complex system requires processes that spans over multiple parts of the system,
+more than the boundary of one service.</p>
+<p><strong>Orchestration</strong>: relying on one central point which guide and drive the process.
+Like the conductor in an orchestra.</p>
+<p><strong>Choreography</strong>: we tell each part of its job, and let it work out the details.
+Like a ballet dancer reacting to others around them.</p>
+<p>Example scenario:</p>
+<p>When a new user is created, we</p>
+<ol>
+<li>send an email</li>
+<li>we post a thank you note</li>
+</ol>
+<p>Each of these is handled through a different service: email service and post service</p>
+<p>Downside of Orchestration is that it becomes too much of a center.</p>
+<p>With Choreography approach, the customer service emit an event in an async manner
+saying that a new customer has been created
+The downside here is that the explicit process is implicit in our solution,
+meaning we need to somehow track to tell if the process has indeed finished successfully.
+A good solution here is to build a monitoring system that explicitly matches the business process.</p>
+<h2 id="remote-procedure-calls-rpc" class="relative group">Remote Procedure calls (RPC) <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#remote-procedure-calls-rpc" aria-label="Anchor">#</a></span></h2><p>I need to read more about it.</p>
+<h2 id="rest" class="relative group">REST <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#rest" aria-label="Anchor">#</a></span></h2><p>REpresentational State Transfer (REST) is in a architectural style inspired by the Web.</p>
+<p>Resource - a thing that the service know about (like a Customer)
+the server create different representation of this resource on a request.
+How this resource is exposed is decouple from how it look internally.</p>
+<p>E.g. a client ask for a JSON representation while the resource internally is being
+kept in a relational db.</p>
+<h3 id="rest-and-http" class="relative group">REST and HTTP <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#rest-and-http" aria-label="Anchor">#</a></span></h3><p>HTTP protocol goes well with REST style, e.g. http verbs.
+HTTP also bring a lot of tooling with it. Some allows for better security.</p>
+<p>For server-to-server communication if extremely low latency or small size is important,
+we will use TCP instead of http.</p>
+<p>Overall REST over HTTP is the default choice for service-to-service communication today.</p>
+<h2 id="implementing-async-event-based-collaboration" class="relative group">Implementing Async event-based collaboration <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#implementing-async-event-based-collaboration" aria-label="Anchor">#</a></span></h2><h3 id="technology-choices" class="relative group">Technology choices <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#technology-choices" aria-label="Anchor">#</a></span></h3><p>Two main parts:</p>
+<ol>
+<li>a way to emit events</li>
+<li>a way for consumers to find out these events happened.</li>
+</ol>
+<p>One solution - a massage broker. Like RabbitMQ.
+Keep your middleware (where the messages pass) dumb, keep the logic at the ends.</p>
+<h3 id="complexities" class="relative group">Complexities <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#complexities" aria-label="Anchor">#</a></span></h3><p>You need to think about failures and how to treat them, for example,
+say the response comes back, does it return to the same node it came out of?
+What if that node is down?
+It Is important to have monitoring and the use of correlation IDs is recommended
+so we can track a sequence of requests across services.</p>
+<h2 id="services-as-state-machines" class="relative group">Services as state machines <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#services-as-state-machines" aria-label="Anchor">#</a></span></h2><p>We want to avoid dumb services that are CRUD wrappers.
+Having the life cycle of key domain concept explicit modeled is pretty powerful.</p>
+<h2 id="access-by-reference" class="relative group">Access by reference <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#access-by-reference" aria-label="Anchor">#</a></span></h2><p>We need to know that the microservices for Customer hold all of the entity lifecycle.
+This also needs to be the source of truth for the customer.</p>
+<p>It is possible that after we ask for a Customer, while it is in our hands, the
+entity has changed.
+If we avoid requesting data more than we need, our system will be much more efficient.</p>
+<p>Example: we ask the email service to send an email when an order has been shipped.</p>
+<p><strong>bad</strong>: we can send the email service the order details with the customer information.
+if the email is pulling these from a queue, while the requests waits there, things change.
+<strong>good</strong>: a better alternative is to send URI for the <em>Customer</em> and <em>Order</em> resources and the
+email service will look them up when it is time.</p>
+<h2 id="versioning" class="relative group">Versioning <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#versioning" aria-label="Anchor">#</a></span></h2><ul>
+<li>postpone until you must</li>
+<li>semantic versioning MAJOR.MINOR.PATCH</li>
+</ul>
+<p>MAJOR change - breaking changes has been made.
+MINOR change - new functionality has been added, should support backwards compatibility
+PATCH change - bug fix for existing features.</p>
+<ul>
+<li>coexist different endpoints
+gradually moving into a new service.
+Expand and contract pattern.
+We expand with a new service, once everyone is using the new one,
+we contract and remove the old service</li>
+</ul>
+<p>One way is adding version number to the URI. e.g. <code>/v1/customer/</code> or <code>/v2/customer</code></p>
+<ul>
+<li>using multiple concurrent service versions</li>
+</ul>
+<h2 id="user-interface-ui" class="relative group">User Interface (UI) <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#user-interface-ui" aria-label="Anchor">#</a></span></h2><p>The user can interact with our application through different kinds of devices:
+mobile phone, web, tablet, computer.</p>
+<p>Each device has constraint, e.g. you can&rsquo;t right click on a phone for example.
+Or some activities are battery draining.</p>
+<p>Thus, there is a need to handle those differences between each type of interface</p>
+<h3 id="backends-for-frontends" class="relative group">backends for frontends <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#backends-for-frontends" aria-label="Anchor">#</a></span></h3><p>One way to handle chatty interface is to have one endpoint in a gateway that
+will fetch all of the data from the different services</p>
+<p>another model is to have a server for each user interface</p>
+<p>Mobile app - mobile backend
+website - website backend
+helpdesk - helpdesk backend</p>
+<p>if there is an api authentication and auth layer, we can put this layer
+for all backends before it reaches them</p>
+<h2 id="integrating-3rd-party-software" class="relative group">Integrating 3rd party software <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#integrating-3rd-party-software" aria-label="Anchor">#</a></span></h2><p>Author advice, if it is unique for the business that we are building, build it, otherwise
+there is no reason for you to develop, just buy the current existing tool for the job.
+Examples: CRM, CMS</p>
+<h3 id="customization" class="relative group">Customization <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#customization" aria-label="Anchor">#</a></span></h3><p>Sometimes, these services requires heavy customization
+Find the core concept that are important to your domain, it will front the CRM
+expose simple REST API and we can integrate using this service
+this is a called a facade</p>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+    <div class="place-self-center">
+      
+      
+      <div class="text-2xl sm:text-lg">
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="//localhost:1313/posts/articles_i_loved/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Articles I Loved</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-11-18 10:32:09 &#43;0200 IST">18 November 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="//localhost:1313/posts/yws/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Yws</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-11-20 13:40:37 &#43;0200 IST">20 November 2025</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2025
+            
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
