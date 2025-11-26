@@ -1,7 +1,7 @@
 +++
 title = 'Learning About Microservices'
 date = 2025-11-19T10:03:53+02:00
-lastmod = 2025-11-26T19:26:08+02:00
+lastmod = 2025-11-26T19:36:43+02:00
 draft = true
 showDateUpdated = true
 showTableOfContents = true
