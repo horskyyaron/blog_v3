@@ -2,7 +2,7 @@
 title = 'Sqs vs Sns'
 date = 2025-11-22T17:27:01+02:00
 draft = false
-tags = ["config", "docs"]
+tags = ["microservices", "system-design"]
 +++
 
 # Queus vs Pub/Sub

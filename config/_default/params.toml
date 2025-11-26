@@ -28,7 +28,7 @@ fingerprintAlgorithm = "sha256"
 [footer]
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
@@ -38,8 +38,8 @@ fingerprintAlgorithm = "sha256"
 
 [article]
   showDate = true
-  showDateUpdated = false
-  showAuthor = true
+  showDateUpdated = true
+  showAuthor = false
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
@@ -50,10 +50,10 @@ fingerprintAlgorithm = "sha256"
   invertPagination = false
   showReadingTime = true
   showTableOfContents = false
-  showTaxonomies = false
-  showWordCount = false
-  showComments = false
-  # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo", "xing", "bluesky"]
+  showTaxonomies = true
+  showWordCount = true
+  showComments = true
+  sharingLinks = ["facebook", "x-twitter","reddit", "linkedin", "email", "telegram" ]
 
 [list]
   showBreadcrumbs = false

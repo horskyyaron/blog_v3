@@ -1,12 +1,16 @@
 +++
 title = 'Learning About Microservices'
 date = 2025-11-19T10:03:53+02:00
-draft = false
+lastmod = 2025-11-26T10:03:53+02:00
+draft = true
+showDateUpdated = true
+showTableOfContents = true
+tags = ["microservices"]
 +++
 
 This is a ongoing summary of the book *"Building Microservices"* by Sam Neuman.
 
-# Chapter 1 - What are microservices
+## Chapter 1 - What are microservices?
 
 From the book:
 
@@ -14,16 +18,17 @@ From the book:
 
 Breaking it down we get:
 
-* Small - in terms of code base and team.
-* Autonomous - separate entities, deployed as a independent service.
+* Small - in terms of code base and teams working on each service.
+* Autonomous - separate entities, deployed as an independent service.
 
-Communication between services are through network calls.
-
+Communication between services are through network calls.\
 Thoughts are made about what is exposed vs hidden.
 
-## Key Benefits
+Lets list some of the key benefits of microservices and why they are cool.
 
-### Technology Heterogeneity
+### Key Benefits
+
+#### The right tool for the job 
 
 Since each service is independent, we can choose the right tools for the job,
 for example:
@@ -31,29 +36,35 @@ for example:
 -  database
 -  language
 
-### Resilience 
+#### Resilience 
 
-One service going down won't make the whole system crash.
-NOTE: the system should be ready for this cases and handle them correctly.
+One service going down won't make the whole system crash.\
+NOTE: the system should be ready for this cases and handle them correctly! (or else the system won't work properly, or crash).
 
-### Scaling
+#### Scaling
 
-With smaller services, in contrast to monolith, we can just scale the part of the system that 
-requires more resources.
+Many users want to use that special feature when you click a button and it cooks them dinner through network calls?
+Great! Just add more of that sweet `Dinner-Maker` service to handle the load.
 
-### Ease of deployment
+#### Ease of deployment
 
-We can deploy just the service that changes were made in, not the whole system.
+Did you update `Dinner-Maker` to support deserts as well? Good. A wonderful change.
+Do you need to deploy the whole system? Nope. Just deploy the new and improved `Dinner-Maker` 
+service :).
 
-### Optimize for replaceability
+#### Optimize for replaceability
+
+Did you choose to RIR (Rebuild-in-rust) that `Dinner-Maker` since you are cool?
+Or did you change the entire feature and it is now only supports breakfasts,
+meaning, you need to replace `Dinner-Maker` with `Breakfast-Maker` service?
 
 The cost of replacing one service is not that expensive since it is small in size 
 and complexity.
 And since requirements are being changed all the time, and new technology is being
-created all the time, the system must be ready to embrace changes!
-Microservices are optimize for that uncertainty
+created all the time, **the system must be ready to embrace changes!** 
+Microservices are a good way to handle that uncertainty.
 
-# Chapter 2 - The Evolutionary Architect
+## Chapter 2 - The Evolutionary Architect
 
 The term "Architect" has problems in the world of software.
 It was borrowed from an existing profession when the architect has accountability
