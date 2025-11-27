@@ -1,6 +1,6 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2025-11-27T10:49:12+02:00
+lastmod = 2025-11-27T15:32:02+02:00
 draft = false
 title = 'Lastmod'
 tags = ["neovim", "scripting", "automation"]
@@ -114,11 +114,11 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 I'm sure there is a better, faster, more efficient, better looking solution. 
 I started with trying out `sed` commands with the idea of creating a script, then create a 
 keymap that will trigger the script.
-I gave up on that and tried out a neovim solution in lua.
-Between you and me? I asked the ChatGPT to help me. I changed some of his suggestions of course,
-but it helped a ton.\
-I know, I'm not proud of it, but it was fast and I always find myself mixing up the 
-neovim API commands, since sadly, I stopped changing my neovim config daily just a while ago.
+I gave up on that and tried out a neovim solution in lua.\
+I knew about `autocmd` which is defining functions to run on certain event.
+So, with a little help from my AI friend when stuck, since I can't remember the neovim API (I've finished rehab 
+of configuring my neovimg config every other day), I asked him the right
+questions and it helped me create this short piece of code.
 
 So, What is the purpose of this weird post? In not particular order:
 
