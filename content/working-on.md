@@ -15,12 +15,6 @@ You are not that important, what is the worst that can happen?
 
 ## YWS
 
-The Goal: creating a local "aws-ish" so i can play with these tools locally before "committing"
-to the tools in the cloud which costs money.
-
-Why?
-This will help me learn about these subjects, implementing and creating is the best way to learn.
-Also, very fun.
-
-Besides learning about how microservice works and communicate, I'll also be using
-Python so I'll become proficient in another language.
+The Goal: creating a local "aws-ish" so I can play with these tools locally before
+using the cloud environment.
+This project is built mainly with Python.

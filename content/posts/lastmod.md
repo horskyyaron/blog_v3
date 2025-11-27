@@ -1,11 +1,14 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2025-11-27T10:34:31+02:00
+lastmod = 2025-11-27T10:49:12+02:00
 draft = false
 title = 'Lastmod'
+tags = ["neovim", "scripting", "automation"]
 +++
 
-What the hell is Lastmod? 
+What the hell is `Lastmod`? \
+Let's build into it.
+
 
 ## Hugo
 
@@ -20,37 +23,46 @@ This is also why I use it for this exact site that you're in :).
 
 ## Configuring an article page
 
-The awesome thing about hugo is that it lets me focus on what matter most - writing.\
+The awesome thing about hugo is that it lets me focus on what matter most - **writing**.\
 I don't need to handle that `useEffect`, or choosing which UI library is the best,
 or dispatching an action using `Redux` to update the application state, or building that server 
-that I be requesting some fancy calculations from, nope.
-I just need to write markdown files.
+that I'll be requesting some fancy calculations from, nope.\
+I just need to write **markdown files**.
 
-Part of that file is called the **frontmatter**. This is the opening part of the file which
-contains metadata about the post.
-for example, for this post this is how, roughly, the frontmatter looks like:
+Part of the markdown file is called the **frontmatter**. This is the first part of the file, which
+contains metadata about the post.\
+For example, for this post this is how, roughly, the frontmatter looks like:
 
 ```markdown
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2025-11-26T19:53:23+02:00
-draft = true
+lastmod = 2025-11-27T10:39:16+02:00
+draft = false
 title = 'Lastmod'
+tags = ["neovim", "scripting", "automation"]
 +++
 ```
 
 That is why you see *26 November 2025* at the top of the page,
-and next to it you see *Updated: 26 November 2025*.
+and next to it you see *Updated: 27 November 2025*.
 The theme is using hugo capabilities to use that field and use it as it wishes, in
 this example, it puts it right under the title.
 
+If for some other post, I'll add the following line in the frontmatter:
+
+```markdown
+showDateUpdated = false
+```
+
+It will not show the updating date. \
+You can think of the frontmatter as the configuration + metadata for the file.
 
 End of background.
 
 ## Wasting time?
 
-I found myself changing a post on three different days, each time I needed to change the 
-`lastmod` so it will be, well, up to date and true to reality.\
+I found myself changing a post on three different days, deploying multiple times each day. \
+Each time I needed to change the `lastmod` so it will be, well, up to date and true to reality.\
 I'm sure you see where this is going.\
 "Well", I thought to myself, "Why should I be doing this manually, each time on every post that I change?"\
 You are exactly right, me, you shouldn't be wasting your time on such nonsense, you should "waste" your
@@ -154,3 +166,4 @@ Just some ideas that pops in my head
 
 When you know your tools, know how to script, know how to mix different programs
 capabilities, you can do a lot of very cool stuff.
+I encourage you to tinker and experiment, it's great.
