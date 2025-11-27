@@ -1,6 +1,6 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2025-11-26T23:58:03+02:00
+lastmod = 2025-11-27T10:34:31+02:00
 draft = false
 title = 'Lastmod'
 +++
@@ -112,7 +112,8 @@ So, What is the purpose of this weird post? In not particular order:
 
 ### Know you tools.
 
-By knowing neovim and neovim capabilities:
+By knowing neovim and neovim capabilities (a bit, this piece of software is huge and I'm far from an advanced vim user):
+
 - keymaps
 - autocommands
 - use of operating system commands inside of neovim (use of the date command)
@@ -120,8 +121,16 @@ By knowing neovim and neovim capabilities:
     This is the use of external commands while in neovim. 
     Knowing this will let your imagination go wild. (try out `:read !ls` while in neovim :) 
     if you see it for the first time I'm sure your programmer's brain cogs will start running uncontrollably)
-- another cool one is that English is not my native language, so I may trip here and there with grammer and typos.
+
+The goal of finding a string, changing it automatically by using operating system commands +
+text manipulation, just before saving the file, can be achieved pretty easily.
+
+Another cool example: grammar.
+
+- another cool one is that English is not my native language, so I may trip here and there with grammar and typos.
 "So?" you might ask, well, try entering `:set spell`, then start with `]s` and `[s` and `z=` you'll get the idea.
+- So, whenever I write these posts, I have this setting turn on and it helps me when I'm typing just too damn fast and
+unavoidably sometimes make mistakes.
 
 ### Automate 
 
@@ -141,5 +150,7 @@ Just some ideas that pops in my head
 
     So I created a script for it.
 
+### Have fun
 
-
+When you know your tools, know how to script, know how to mix different programs
+capabilities, you can do a lot of very cool stuff.
