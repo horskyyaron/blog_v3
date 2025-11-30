@@ -1,6 +1,6 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2025-11-27T15:32:02+02:00
+lastmod = 2025-11-27T15:37:22+02:00
 draft = false
 title = 'Lastmod'
 tags = ["neovim", "scripting", "automation"]
