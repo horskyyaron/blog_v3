@@ -15,8 +15,8 @@ You are not that important, what is the worst that can happen?
 
 ## Tmux-sessionizer TUI
 
-A project management TUI.
-Quick navigation, and creation of projects
+A TUI for managing development projects using tmux sessions - allows fast navigation
+between projects and faster setup for new projects.
 
 ## YWS
 
