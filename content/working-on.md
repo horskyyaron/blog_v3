@@ -13,10 +13,17 @@ This website :)\
 I've danced around this idea for some time now and decided to pull the trigger.\
 You are not that important, what is the worst that can happen?
 
-## Tmux-sessionizer TUI
+## lazymux 
 
-A TUI for managing development projects using tmux sessions - allows fast navigation
-between projects and faster setup for new projects.
+A TUI for managing your TMUX sessions for your projects.
+
+## TBTUI 
+
+Time-block TUI. \
+Time block planner for the digital platform.\
+Thoughts: schedule, have reminders using cron jobs, modify schedule, track metrics\
+notes, block types (meeting, errands)
+
 
 ## YWS
 
