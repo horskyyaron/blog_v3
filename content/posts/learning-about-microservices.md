@@ -1,11 +1,11 @@
 +++
-title = 'Learning About Microservices'
+title = '[BC]: Building Microservices - Sam Neuman'
 date = 2025-11-19T10:03:53+02:00
-lastmod = 2025-11-26T19:36:43+02:00
+lastmod = 2025-12-02T12:43:53+02:00
 draft = true
 showDateUpdated = true
 showTableOfContents = true
-tags = ["microservices"]
+tags = ["microservices", "books"]
 +++
 
 This is a ongoing summary of the book *"Building Microservices"* by Sam Neuman.

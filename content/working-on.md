@@ -16,6 +16,7 @@ You are not that important, what is the worst that can happen?
 ## lazymux 
 
 A TUI for managing your TMUX sessions for your projects.
+Will be using [openTui](https://github.com/sst/opentui/tree/main), a cool tool for creating teminal UIs.
 
 ## TBTUI 
 
@@ -25,8 +26,8 @@ Thoughts: schedule, have reminders using cron jobs, modify schedule, track metri
 notes, block types (meeting, errands)
 
 
-## YWS
+<!-- ## YWS -->
 
-The Goal: creating a local "aws-ish" so I can play with these tools locally before
-using the cloud environment.
-This project is built mainly with Python.
+<!-- The Goal: creating a local "aws-ish" so I can play with these tools locally before -->
+<!-- using the cloud environment. -->
+<!-- This project is built mainly with Python. -->
