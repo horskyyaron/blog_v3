@@ -25,10 +25,17 @@
   pageRef = "tags"
   weight = 30
 
+
 [[main]]
   name = "Working-on"
   pageRef = "working-on"
   weight = 15 
+
+[[main]]
+  name = "Reading list"
+  pageRef = "reading-list"
+  weight = 20 
+
 
 [[main]]
   identifier = "search"
