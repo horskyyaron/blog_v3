@@ -1,8 +1,9 @@
 +++
 date = '2025-12-04T12:04:12+02:00'
-draft = true
+draft = false
 title = 'Reading List'
 sharingLinks = false
+
 +++
 
 ## Currently reading 
