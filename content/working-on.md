@@ -15,7 +15,8 @@ You are not that important, what is the worst that can happen?
 
 ## lazymux 
 
-A TUI for managing your TMUX sessions for your projects.
+
+[Lazymux](https://github.com/horskyyaron/lazymux) is a TUI for managing your TMUX sessions for your projects.
 Will be using [openTui](https://github.com/sst/opentui/tree/main), a cool tool for creating teminal UIs.
 
 ## TBTUI 

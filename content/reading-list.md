@@ -11,4 +11,6 @@ sharingLinks = false
 
 ## Books Queue 
 
-To be updated
+* The Pragmatic Programmer - Andrew Hunt and David Thomas
+* The Mythical Man Month
+* working effectively with legacy code
