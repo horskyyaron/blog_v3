@@ -16,15 +16,15 @@ You are not that important, what is the worst that can happen?
 ## lazymux 
 
 
-[Lazymux](https://github.com/horskyyaron/lazymux) is a TUI for managing your TMUX sessions for your projects.
-Will be using [openTui](https://github.com/sst/opentui/tree/main), a cool tool for creating teminal UIs.
+[Lazymux](https://github.com/horskyyaron/lazymux) is a TUI for managing your TMUX sessions for your projects.\
+Will be using [openTui](https://github.com/sst/opentui/tree/main) for building the ui. 
 
-## TBTUI 
-
-Time-block TUI. \
-Time block planner for the digital platform.\
-Thoughts: schedule, have reminders using cron jobs, modify schedule, track metrics\
-notes, block types (meeting, errands)
+<!-- ## TBTUI  -->
+<!---->
+<!-- Time-block TUI. \ -->
+<!-- Time block planner for the digital platform.\ -->
+<!-- Thoughts: schedule, have reminders using cron jobs, modify schedule, track metrics\ -->
+<!-- notes, block types (meeting, errands) -->
 
 
 <!-- ## YWS -->

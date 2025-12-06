@@ -6,6 +6,7 @@ title = 'Articles Ideas'
 
 * [ ] Empanadas - the glory of a procedure and before hand planning.
 * [X] how i made a simple script of updating the "updating" date in my neovim config only for my blog 
+* [ ] creating a script for tagging my articles
 * [ ] docker - using anime analogy
 * [ ] authorization and authentication - build something
 * [ ] building a database
