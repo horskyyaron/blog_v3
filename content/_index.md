@@ -8,7 +8,7 @@ params:
 
 Hello! I'm Yaron 😃
 
-I work as a software engineer at Moveo.\
+I work as a software engineer.\
 BS.c in computer science.
 
 I'm a funny guy who likes to cook, program, watch anime, read books \
