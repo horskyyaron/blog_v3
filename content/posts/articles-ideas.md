@@ -12,4 +12,5 @@ title = 'Articles Ideas'
 * [ ] building a database
 * [ ] document the building of lazymux
 * [ ] vertical dev vs horizontal (adapter then thin layer or each component first) 
+* [ ] devlog - where should the data live? list one tab affetcs the other
 

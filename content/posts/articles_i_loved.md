@@ -13,3 +13,4 @@ Maybe in the future I'll sort these by subject :)
 
 * [Mastering Programming - Kent Beck](https://tidyfirst.substack.com/p/mastering-programming)
 * [Build your own Database - Nanda Syahrasyad](https://www.nan.fyi/database?utm_source=substack&utm_medium=email)
+* [My productivity app is a never-ending .txt file - Jeff Huang](https://jeffhuang.com/productivity_text_file/)
