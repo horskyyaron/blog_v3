@@ -1,6 +1,6 @@
 +++
 date = '2026-02-02T07:31:11+02:00'
-lastmod = 2026-02-02T07:54:10+02:00
+lastmod = 2026-02-02T07:54:45+02:00
 draft = true
 title = 'Are We Cooked?'
 +++
@@ -8,7 +8,7 @@ title = 'Are We Cooked?'
 
 Some thoughts about the future of programming and where should I be betting my money for now.
 
-In short, AI and Software Architecture and design.
+In short, **AI** and **Software Architecture and design**.
 
 ## AI
 
