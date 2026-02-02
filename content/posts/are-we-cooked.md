@@ -1,6 +1,6 @@
 +++
 date = '2026-02-02T07:31:11+02:00'
-lastmod = 2026-02-02T07:55:09+02:00
+lastmod = 2026-02-02T08:00:18+02:00
 draft = false
 title = 'Are We Cooked?'
 +++
@@ -12,14 +12,16 @@ In short, **AI** and **Software Architecture and design**.
 
 ## AI
 
-I think that continuing to ignore and to not learn and harness AI to its fullest is wishful thinking
-that AI will never replace programmers.
+I think that continuing to ignore and to not learn and harness AI to its fullest is a mistake.\
+And that AI will never replace programmers is wishful thinking.
 
 Will it replace programmers? In my opinion, yes, it will.\
 But, it will replace the superficial programmers. Those that are not willing to learn deeply, those that
-will just continue to back and forth and never look at the code produced.
+will just continue to back and forth and never look at the code produced. 
+Those that doesn't learn programming concepts and computer science, they may be good 'vibe coders' but there will a demand for those
+that will fix things when things are stopped from being fixed by a prompt, and real big complex problems are introduced into the system.
 
-I also think that since AI will (is, actually) be a part of the toolbox, as I do deeply believe
+I also think that since AI will (is, actually) be a part of every programmer toolbox, and as I do deeply believe
 since before AI, YOU SHOULD KNOW YOUR TOOLS!\ 
 AI is no exception.
 
