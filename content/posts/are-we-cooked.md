@@ -1,7 +1,7 @@
 +++
 date = '2026-02-02T07:31:11+02:00'
-lastmod = 2026-02-02T07:54:45+02:00
-draft = true
+lastmod = 2026-02-02T07:55:09+02:00
+draft = false
 title = 'Are We Cooked?'
 +++
 
