@@ -1,6 +1,6 @@
 +++
 date = '2026-02-02T07:31:11+02:00'
-lastmod = 2026-02-02T10:10:30+02:00
+lastmod = 2026-02-09T20:21:02+02:00
 draft = false
 title = 'Are We Cooked?'
 +++
@@ -41,12 +41,14 @@ Design and Architecture are some of these in my opinion.
 It is highly valuable to know these concepts, because starting out with bad design, no matter how fast you produce
 the code, will result in a rewrite at best and cost you a lot of money or even worse if it is really bad.
 
-This is connected to context-management, I've learned about this concept of research->plan->implement cycle.
+This is connected to context-management, I've learned about this concept of\ 
+research->plan->implement cycle.\
 Which is basically, making a really good plan before telling the model to implement, and the impact of being wrong in the different stages
-has different magnitude.
+has different size of effect.
 For example, if I describe the wrong bug, no matter how detailed the plan is, it will not solve the bug and end up with 1000~ lines
 of bad code.
 Describing the bug correctly but designing a bad plan will result in 100~ of code etc.
+(these ideas are originated from this [talk](https://www.youtube.com/watch?v=rmvDxxNubIg) from Dex Horthy which I find interesting.
 
 And generally it is the same as in life, 20% 80% Pareto distribution, the wealth distribution, everything, 
 there are a few things which impact the majority of of outcomes, programming is not the exception.
