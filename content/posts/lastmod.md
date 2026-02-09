@@ -1,6 +1,6 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2026-02-09T20:10:13+02:00
+lastmod = 2026-02-09T20:12:21+02:00
 draft = false
 title = 'Lastmod'
 tags = ["neovim", "scripting", "automation"]
@@ -158,7 +158,7 @@ Just some ideas that pops in my head
     - create a directory in `~/projects` directory.
     - cd into it 
     - initialize git directory
-    - create a `readme.md` file\
+    - create a `readme.md` file
 
     So I created a script for it.
 
