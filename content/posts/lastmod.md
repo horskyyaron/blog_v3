@@ -1,6 +1,6 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2026-02-09T20:08:54+02:00
+lastmod = 2026-02-09T20:10:13+02:00
 draft = false
 title = 'Lastmod'
 tags = ["neovim", "scripting", "automation"]
@@ -120,7 +120,7 @@ So, with a little help from my AI friend when stuck, since I can't remember the 
 of configuring my neovimg config every other day), I asked him the right
 questions and it helped me create this short piece of code.
 
-So, What is the purpose of this weird post? In not particular order:
+So, What is the purpose of this weird post? In no particular order:
 
 ### Know you tools.
 
