@@ -13,11 +13,11 @@ This website :)\
 I've danced around this idea for some time now and decided to pull the trigger.\
 You are not that important, what is the worst that can happen?
 
-## lazymux 
-
-
-[Lazymux](https://github.com/horskyyaron/lazymux) is a TUI for managing your TMUX sessions for your projects.\
-Will be using [openTui](https://github.com/sst/opentui/tree/main) for building the ui. 
+<!-- ## lazymux  -->
+<!---->
+<!---->
+<!-- [Lazymux](https://github.com/horskyyaron/lazymux) is a TUI for managing your TMUX sessions for your projects.\ -->
+<!-- Will be using [openTui](https://github.com/sst/opentui/tree/main) for building the ui.  -->
 
 <!-- ## TBTUI  -->
 <!---->
