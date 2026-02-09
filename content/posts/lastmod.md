@@ -1,6 +1,6 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2025-11-27T15:37:22+02:00
+lastmod = 2026-02-09T19:41:13+02:00
 draft = false
 title = 'Lastmod'
 tags = ["neovim", "scripting", "automation"]
@@ -137,12 +137,12 @@ By knowing neovim and neovim capabilities (a bit, this piece of software is huge
 The goal of finding a string, changing it automatically by using operating system commands +
 text manipulation, just before saving the file, can be achieved pretty easily.
 
-Another cool example: grammar.
+Another cool example: spelling.
 
 - another cool one is that English is not my native language, so I may trip here and there with grammar and typos.
 "So?" you might ask, well, try entering `:set spell`, then start with `]s` and `[s` and `z=` you'll get the idea.
 - So, whenever I write these posts, I have this setting turn on and it helps me when I'm typing just too damn fast and
-unavoidably sometimes make mistakes.
+unavoidably, sometimes make mistakes.
 
 ### Automate 
 
