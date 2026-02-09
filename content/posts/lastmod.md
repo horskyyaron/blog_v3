@@ -1,6 +1,6 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2026-02-09T20:12:21+02:00
+lastmod = 2026-02-09T20:49:59+02:00
 draft = false
 title = 'Lastmod'
 tags = ["neovim", "scripting", "automation"]
@@ -110,6 +110,9 @@ vim.api.nvim_create_autocmd("BufWritePre", {
   callback = update_lastmod,
 })
 ```
+
+In short, I created an autocommand that will run on each buffer save that will update
+the lastmod value to the current time of saving.
 
 I'm sure there is a better, faster, more efficient, better looking solution. 
 I started with trying out `sed` commands with the idea of creating a script, then create a 
