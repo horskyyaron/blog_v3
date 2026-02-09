@@ -1,6 +1,6 @@
 +++
 date = 2025-11-26T19:34:01+02:00
-lastmod = 2026-02-09T19:41:13+02:00
+lastmod = 2026-02-09T20:08:54+02:00
 draft = false
 title = 'Lastmod'
 tags = ["neovim", "scripting", "automation"]
@@ -44,7 +44,7 @@ tags = ["neovim", "scripting", "automation"]
 ```
 
 That is why you see *26 November 2025* at the top of the page,
-and next to it you see *Updated: 27 November 2025*.
+and next to it you see *Updated: 9 February 2026*. (This 
 The theme is using hugo capabilities to use that field and use it as it wishes, in
 this example, it puts it right under the title.
 
