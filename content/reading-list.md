@@ -7,14 +7,6 @@ sharingLinks = false
 
 +++
 
-## Currently reading 
+I will connect goodreads in near future.
 
-- Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems 1st Edition - Martin Kleppmann (Author)
-
-
-## Books Queue 
-
-* The Pragmatic Programmer - Andrew Hunt and David Thomas
-* The Mythical Man Month
-* working effectively with legacy code
-- Building Microservices - Sam Neuman
+Currently reading ["Musashi"](https://www.goodreads.com/book/show/102030.Musashi) by Eiji Yoshikawa.
