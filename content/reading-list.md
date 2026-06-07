@@ -14,3 +14,4 @@ Currently reading ["Musashi"](https://www.goodreads.com/book/show/102030.Musashi
 A list of blogs I like:
 
 - [Fernando Borretti's blog](https://borretti.me/)
+- [Thorsten Ball's blog](https://registerspill.thorstenball.com/)
