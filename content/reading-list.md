@@ -10,3 +10,7 @@ sharingLinks = false
 I will connect goodreads in near future.
 
 Currently reading ["Musashi"](https://www.goodreads.com/book/show/102030.Musashi) by Eiji Yoshikawa.
+
+A list of blogs I like:
+
+- [Fernando Borretti's blog](https://borretti.me/)
