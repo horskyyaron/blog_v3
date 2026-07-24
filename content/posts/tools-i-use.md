@@ -25,3 +25,4 @@ TODO:
 * hyperfine
 * hunk
 * omarchy
+* glow (markdown render in the terminal)
