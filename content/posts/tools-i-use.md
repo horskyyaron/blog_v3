@@ -20,3 +20,8 @@ TODO:
 * window management system (amethesyt on macos, hyprland on linux)
 * fzf
 * tmux
+* opencode
+* lazydocker
+* hyperfine
+* hunk
+* omarchy
